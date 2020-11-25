@@ -31,6 +31,36 @@
 nav{
   background-color: #FFFFFF;
 }
+/* inizio jumbotron */
 .jumbotron{
   background-color: #004AFF;
+}
+/* inzio main */
+/* inizio sezione innovative */
+#innovative{
+  background-color: #F3F5F9;
+}
+/* inizio sezione deploy */
+#deploy{
+  background-color: #110178;
+}
+/* inizio sezione developers */
+#developers{
+  background-color: #011D4C;
+}
+/* inizio sezione features */
+#features{
+  background-color: #FFFFFF;
+}
+/* inizio sezione service */
+#service{
+  background-color: #0032AE;
+}
+/* inizio sezione teams */
+#teams{
+  background-color: #F3F5F9;
+}
+/* inizio sezione start */
+#start{
+  background-color: #002DA7;
 }
