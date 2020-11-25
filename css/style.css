@@ -2,19 +2,19 @@
   height: 100px;
   border: 1px solid black;
 }
-.h_100{
+.debug .h_100{
   height: 100px;
 }
-.h_200{
+.debug .h_200{
   height: 200px;
 }
-.h_300{
+.debug .h_300{
   height: 300px;
 }
-.h_400{
+.debug .h_400{
   height: 400px;
 }
-.h_500{
+.debug .h_500{
   height: 500px;
 }
 .bg_blue{
@@ -22,6 +22,9 @@
 }
 .bg_darkblue{
   background-color: #031C4E;
+}
+.bg_white{
+  background-color: white;
 }
 /* inizio header */
 /* inizio nav */
