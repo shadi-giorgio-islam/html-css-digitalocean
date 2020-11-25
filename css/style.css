@@ -2,3 +2,32 @@
   height: 100px;
   border: 1px solid black;
 }
+.h_100{
+  height: 100px;
+}
+.h_200{
+  height: 200px;
+}
+.h_300{
+  height: 300px;
+}
+.h_400{
+  height: 400px;
+}
+.h_500{
+  height: 500px;
+}
+.bg_blue{
+  background-color: #2285FD;
+}
+.bg_darkblue{
+  background-color: #031C4E;
+}
+/* inizio header */
+/* inizio nav */
+nav{
+  background-color: #FFFFFF;
+}
+.jumbotron{
+  background-color: #004AFF;
+}
