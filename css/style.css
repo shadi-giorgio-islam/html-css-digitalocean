@@ -1,4 +1,4 @@
-/* .debug [class*='col-']{
+.debug [class*='col-']{
   height: 100px;
   border: 1px solid black;
 }
@@ -25,7 +25,7 @@
 }
 .bg_white{
   background-color: white;
-} */
+}
 /* inizio header */
 /* inizio nav */
 body{
@@ -42,7 +42,7 @@ nav{
   height: 60px;
   line-height: 60px;
 }
-.btn{
+nav .btn{
   color: #006AFF;
   background-color: #FFFFFF;
   border: 1px solid #006AFF;
@@ -65,7 +65,73 @@ i.fas.fa-bars{
 
 /* inizio jumbotron */
 .jumbotron{
-  background-color: #004AFF;
+  background-color: rgb(0, 105, 255);
+  background-image: url('../img/bg-home-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-top: 60px;
+}
+.jumbotron h1{
+  font-size: 58px;
+  font-weight: 900;
+}
+.jumbotron p{
+  font-weight: lighter;
+  color: #BBCDFF;
+}
+.jumbotron .container .row div:last-child{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .jumbotron .container .row div:last-child {
+    margin: auto;
+  }
+}
+.jumbotron .container .row div:last-child h2{
+  font-weight: 700;
+  font-size: 35px;
+  color: #031C4E;
+  text-align: center;
+}
+.jumbotron .container .row div:last-child h3{
+  font-weight: 700;
+  font-size: 35px;
+  color: #006AFF;
+  text-align: center;
+}
+.jumbotron .container .row div:last-child .form-control{
+  margin: 5px 0;
+  }
+.jumbotron .container .row div:last-child button{
+  margin: 10px 0;
+  font-weight: 500;
+}
+.jumbotron .container .row div:last-child button.first{
+  background-color: #579AFF;
+  color: white;
+  border: none;
+}
+.jumbotron .container .row div:last-child button.second{
+  background-color: #FFFFFF;
+  color: #626262;
+}
+.jumbotron .container .row div:last-child button.second i{
+  margin-right: 10px;
+}
+.jumbotron .container .row div:last-child p{
+  font-size: 15px;
+  color: #44567A;
+  font-weight: 400;
+}
+.jumbotron .container .row div:last-child p a{
+  color: #006AFF;
+  font-weight: 400;
+  text-decoration: underline;
 }
 /* inzio main */
 /* inizio sezione innovative */
