@@ -1,4 +1,4 @@
-.debug [class*='col-']{
+/* .debug [class*='col-']{
   height: 100px;
   border: 1px solid black;
 }
@@ -25,12 +25,44 @@
 }
 .bg_white{
   background-color: white;
-}
+} */
 /* inizio header */
 /* inizio nav */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
 nav{
   background-color: #FFFFFF;
+  height: 60px;
+  line-height: 60px;
 }
+.btn{
+  color: #006AFF;
+  background-color: #FFFFFF;
+  border: 1px solid #006AFF;
+  font-weight: 500;
+}
+nav.navbar ul li a{
+  padding: 20px;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #031C4E;
+  font-weight: 500;
+}
+nav.navbar a img{
+  height: 35px;
+}
+i.fas.fa-bars{
+  color: #3A8AFF;
+  line-height: 60px;
+}
+
 /* inizio jumbotron */
 .jumbotron{
   background-color: #004AFF;
