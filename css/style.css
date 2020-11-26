@@ -32,6 +32,9 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #F3F5F9;
 }
+p{
+  line-height: 1.6;
+}
 .text-left{
   text-align: left;
 }
@@ -194,7 +197,46 @@ i.fas.fa-bars{
 }
 /* inizio sezione deploy */
 #deploy{
-  background-color: rgb(105, 54, 199);
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+#deploy .row:first-child h2{
+  font-size: 36px;
+  color: rgb(3, 27, 78);
+  margin: 20px 0;
+}
+#deploy .row:first-child p{
+  font-size: 20px;
+  color: #5B6987;
+  margin: 20px 0;
+}
+#deploy img{
+  margin-top: 20px;
+}
+#deploy ul{
+  list-style-type: none;
+  border-left: 2px solid #75809A;
+}
+#deploy ul li{
+  margin: 15px 0;
+}
+#deploy ul li a{
+  color: #75809A;
+  font-size: 18px;
+  font-weight: 500;
+}
+#deploy ul li a:hover{
+  text-decoration: none;
+  color: rgb(3, 27, 78);
+}
+#deploy h3{
+  font-size: 18px;
+  color: rgb(3, 27, 78);
+}
+#deploy p{
+  font-size: 16px;
+  color: #5B6987;
 }
 /* inizio sezione developers */
 #developers{
