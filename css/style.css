@@ -30,6 +30,7 @@
 /* inizio nav */
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #F3F5F9;
 }
 .text-left{
   text-align: left;
@@ -136,7 +137,60 @@ i.fas.fa-bars{
 /* inzio main */
 /* inizio sezione innovative */
 #innovative{
-  background-color: #F3F5F9;
+  text-align: center;
+  padding: 30px;
+}
+#docker{
+  background-image: url('../img/logo_docker.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gitlab{
+  background-image: url('../img/logo_gitlab.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#slack{
+  background-image: url('../img/logo_slack.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hashicorp{
+  background-image: url('../img/logo_hashicorp.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#rockerbox{
+  background-image: url('../img/rockerbox-logo.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#splunk{
+  background-image: url('../img/logo_splunk.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#innovative p.first{
+  font-size: 20px;
+  color: #6F7B97;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#innovative .row:nth-child(2) [class*='col-']{
+  height: 100px;
+  margin: 20px 0;
+}
+#innovative p a{
+  font-size: 20px;
+  color: #0771FF;
+  font-weight: 400;
+  text-decoration: none;
 }
 /* inizio sezione deploy */
 #deploy{
