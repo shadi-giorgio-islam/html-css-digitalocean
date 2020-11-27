@@ -240,7 +240,44 @@ i.fas.fa-bars{
 }
 /* inizio sezione developers */
 #developers{
-  background-color: rgb(68, 86, 255);
+  background-color: #F3F5F9;
+  text-align: center;
+  padding: 50px;
+}
+#developers a{
+  text-decoration: none;
+}
+#developers h2{
+  font-size: 36px;
+  color: rgb(3, 27, 78);
+}
+#developers p{
+  font-size: 20px;
+  color: #5B6987;
+}
+#developers i.fas{
+  color: #6F7B97;
+  margin-top: 180px;
+}
+#developers i.fas:hover{
+  color: #031C4E;
+  margin-top: 180px;
+}
+#developers img{
+  height: 350px;
+  margin-top: 50px;
+}
+#developers h3{
+  font-size: 15px;
+  color: rgb(3, 27, 78);
+}
+#developers i.far{
+  color: #006AFF;
+  margin-right: 3px;
+}
+#developers i.far:hover{
+  background-color: #006AFF;
+  border-radius: 50%;
 }
 /* inizio sezione features */
 #features{
