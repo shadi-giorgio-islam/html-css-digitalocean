@@ -390,3 +390,37 @@ i.fas.fa-bars{
   background-color: white;
   color: rgb(0, 105, 255);
 }
+/* inizio footer */
+footer{
+  background-color: #031C4E;
+  padding: 50px;
+}
+footer a:hover{
+  text-decoration: none;
+}
+footer p{
+  font-size: 14px;
+  color: #5B7597;
+  font-weight: 500;
+  margin-top: 10px;
+}
+footer p.sub{
+  font-size: 13px;
+  color: #596786;
+  font-weight: 500;
+}
+footer .fab{
+  color: #5B7597;
+  margin-right: 5px;
+}
+footer h3{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+footer p a{
+  font-size: 14px;
+  margin: 10px 0;
+  color: #5B7597;
+  font-weight: 500;
+}
