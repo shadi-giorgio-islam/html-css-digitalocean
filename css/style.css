@@ -337,6 +337,39 @@ i.fas.fa-bars{
 /* inizio sezione teams */
 #teams{
   background-color: #F3F5F9;
+  text-align: center;
+  padding: 50px;
+}
+#teams a{
+  text-decoration: none;
+}
+#teams h2{
+  font-size: 36px;
+  color: rgb(3, 27, 78);
+}
+#teams p{
+  font-size: 20px;
+  color: #5B6987;
+}
+#teams i.fas{
+  color: #6F7B97;
+  margin-top: 180px;
+}
+#teams i.fas:hover{
+  color: #031C4E;
+  margin-top: 180px;
+}
+#teams img{
+  height: 350px;
+  margin: 50px 0;
+}
+#teams i.far{
+  color: #006AFF;
+  margin-right: 3px;
+}
+#teams i.far:hover{
+  background-color: #006AFF;
+  border-radius: 50%;
 }
 /* inizio sezione start */
 #start{
