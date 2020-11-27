@@ -281,7 +281,31 @@ i.fas.fa-bars{
 }
 /* inizio sezione features */
 #features{
-  background-color: #FFFFFF;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+#features .row:first-child h2{
+  font-size: 36px;
+  color: rgb(3, 27, 78);
+  margin: 20px 0;
+}
+#features img{
+  margin-top: 20px;
+}
+#features h3{
+  font-size: 18px;
+  color: rgb(3, 27, 78);
+}
+#features p{
+  font-size: 16px;
+  color: #5B6987;
+}
+#features p a{
+  font-size: 16px;
+  color: #0771FF;
+  font-weight: 400;
+  text-decoration: none;
 }
 /* inizio sezione service */
 #service{
