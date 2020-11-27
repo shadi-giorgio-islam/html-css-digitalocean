@@ -424,3 +424,45 @@ footer p a{
   color: #5B7597;
   font-weight: 500;
 }
+/* inizio chat */
+#chat{
+  width: 500px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+#chat div:first-child{
+  display: inline-block;
+}
+#chat .shark{
+  background-image: url('../img/shark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 80px;
+  position: relative;
+}
+#chat .shark img{
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#chat .chat-text{
+  background-color: white;
+  padding: 15px;
+  color: #031C4E;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  position: relative;
+  bottom: -80px;
+  right: -70px;
+}
+#chat .chat-text i.fas{
+  color: white;
+  position: absolute;
+  left: 307px;
+  bottom: 30px;
+}
