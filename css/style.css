@@ -257,14 +257,14 @@ i.fas.fa-bars{
 }
 #developers i.fas{
   color: #6F7B97;
-  margin-top: 180px;
+  margin-top: 80%;
 }
 #developers i.fas:hover{
   color: #031C4E;
-  margin-top: 180px;
+  margin-top: 80%;
 }
 #developers img{
-  height: 350px;
+  width: 100%;
   margin-top: 50px;
 }
 #developers h3{
@@ -353,14 +353,14 @@ i.fas.fa-bars{
 }
 #teams i.fas{
   color: #6F7B97;
-  margin-top: 180px;
+  margin-top: 80%;
 }
 #teams i.fas:hover{
   color: #031C4E;
-  margin-top: 180px;
+  margin-top: 80%;
 }
 #teams img{
-  height: 350px;
+  width: 100%;
   margin: 50px 0;
 }
 #teams i.far{
@@ -432,9 +432,6 @@ footer p a{
   right: 10px;
   z-index: 1;
 }
-#chat div:first-child{
-  display: inline-block;
-}
 #chat .shark{
   background-image: url('../img/shark.png');
   background-size: contain;
@@ -459,6 +456,7 @@ footer p a{
   position: relative;
   bottom: -80px;
   right: -70px;
+  display: inline-block;
 }
 #chat .chat-text i.fas{
   color: white;
